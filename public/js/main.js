@@ -476,6 +476,7 @@ updateCountdown(); // Khởi tạo đồng hồ đếm ngược
 
 // style menu khi cuộn trang
 var menu = document.querySelector(".container_menu");
+var banner = document.querySelector(".my_banner")
 
 window.addEventListener("scroll", function() {
   // Kiểm tra vị trí cuộn
@@ -485,6 +486,7 @@ window.addEventListener("scroll", function() {
   if (scrollPosition > 0) {
     menu.style.transform = "translateY(-48px)";
     menu.style.position = "fixed";
+    banner.style.paddingTop = "5rem"
   } else {
     menu.style.transform = "translateY(0px)";
   }
