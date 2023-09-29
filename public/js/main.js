@@ -491,3 +491,17 @@ window.addEventListener("scroll", function() {
     menu.style.transform = "translateY(0px)";
   }
 });
+//instagram
+function instagram(){
+  var index = 1;
+  var slide = document.querySelector(".instagram > div:nth-child(2)")
+  setInterval(function(){
+    if(index % 2 == 0){
+      slide.style.transform = "translateX(-215px)"
+    }else{
+      slide.style.transform = "translateX(0px)"
+    }
+    index++;
+  },5000)
+}
+instagram()
