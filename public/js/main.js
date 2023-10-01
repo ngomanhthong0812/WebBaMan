@@ -495,6 +495,7 @@ window.addEventListener("scroll", function() {
     menu.style.transform = "translateY(-48px)";
     menu.style.position = "fixed";
     banner.style.paddingTop = "5rem"
+    console.log("hi")
   } else {
     menu.style.transform = "translateY(0px)";
   }
