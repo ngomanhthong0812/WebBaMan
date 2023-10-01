@@ -101,6 +101,14 @@ var heart = document.querySelector(".heart");
 var shopping = document.querySelector(".shopping");
 var search = document.querySelector(".search");
 var mySearch = document.querySelector(".my_search");
+var menuReponsive = document.querySelector(".oppenMenu")
+
+//menu reponsive
+menuReponsive.addEventListener("click", function () {
+  menuLeft.style.transform = "translateX(0)";
+  menuLeft.style.opacity = "1";
+ 
+});
 
 user.addEventListener("click", function () {
   menuLeft.style.transform = "translateX(0)";
