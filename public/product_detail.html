@@ -382,18 +382,18 @@
 
 
  <!-- zoom card -->
-  <div class="container_product_detail max-w-[1540px] my_banner_card ">
+  <div class="container_product_detail max-w-[1540px] my_banner_card pt-[1.3rem]">
     <div class="show_product_card w-auto p-0 justify-center" style="transform: skewX(0); opacity: 1;">
-        <div class="show_product_card-1">
-          <i class='bx bx-chevron-left my_prev' ></i>
-          <div class="image">
-            <img src="../public/img/product/1.webp" alt="" />
-            <img src="../public/img/product/1-1.webp" alt="" />
-            <img src="../public/img/product/1-2.webp" alt="" />
-            <img src="../public/img/product/1-3.webp" alt="" />
-            <img src="../public/img/product/1-4.webp" alt="" />
+        <div class="show_product_card-1 w-[50%]">
+          <i class='bx bx-chevron-left' onclick="my_prev_1()"></i>
+          <div class="image w-[100%] h-[600px]">
+            <img src="../public/img/product/1.webp" alt="" class="w-[600px] h-auto" />
+            <img src="../public/img/product/1-1.webp" alt="" class="w-[600px] h-auto" />
+            <img src="../public/img/product/1-2.webp" alt="" class="w-[600px] h-auto" />
+            <img src="../public/img/product/1-3.webp" alt="" class="w-[600px] h-auto" />
+            <img src="../public/img/product/1-4.webp" alt="" class="w-[600px] h-auto hidden" />
           </div>
-          <i class='bx bx-chevron-right my_next' ></i>
+          <i class='bx bx-chevron-right' onclick="my_next_1()"></i>
           <div class="image_child">
               <img src="../public/img/product/1.webp" alt="" onclick="image_zoomCard(0)" />
               <img src="../public/img/product/1-1.webp" alt="" onclick="image_zoomCard(1)" />
@@ -402,7 +402,7 @@
               <img src="" alt="" onclick="image_zoomCard(4)" class="hidden"/>
           </div>
         </div>
-        <div class="show_product_card-2">
+        <div class="show_product_card-2 w-[50%]">
             <div class="title">
                 The Air Scoop-Neck Tee
             </div>
@@ -579,11 +579,12 @@ window.addEventListener("scroll", function() {
   if (scrollPosition > 0) {
     menu.style.transform = "translateY(-48px)";
     menu.style.position = "fixed";
-    banner.style.paddingTop = "5rem"
+    banner.style.paddingTop = "6rem"
   } else {
     menu.style.transform = "translateY(0px)";
   }
 });
+
     </script>
     
 </body>

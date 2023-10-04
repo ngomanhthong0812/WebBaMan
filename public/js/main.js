@@ -427,7 +427,7 @@ function nextEndow() {
 }
 function prevEndow() {
   indexEndow = 1;
-  productCardEndow.style.transform = "translateX(px)";
+  productCardEndow.style.transform = "translateX(0px)";
 }
 function autoSlideEndow() {
   console.log(indexEndow);
