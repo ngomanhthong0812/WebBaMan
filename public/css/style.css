@@ -1176,15 +1176,15 @@ footer {
   color: black;
   font-size: 13px;
 }
-.show_product_card-2 .categories {
+.categories {
   font-size: 14px;
   line-height: 27px;
   font-weight: 500;
 }
-.show_product_card-2 .categories span {
+.categories span {
   color: #979797;
 }
-.show_product_card-2 .categories:nth-child(6) {
+.categories:nth-child(6) {
   padding-top: 1rem;
 }
 .close_zoom {
@@ -2118,4 +2118,8 @@ footer {
 .customer_service h6{
   margin-top: 10px;
 }
+.product_details .details > *{
+  margin-top: 13px;
+}
+
  
