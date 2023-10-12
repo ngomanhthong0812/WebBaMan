@@ -1888,6 +1888,10 @@ footer {
   .featured_Deals > * {
     width: 100% !important;
   }
+
+  .Featured_Deals .Featured_Deals-child--1 {
+    padding-right: 0;
+}
   .Featured_Deals
     .Featured_Deals-child--2
     .featured_Deals-child--2-1
