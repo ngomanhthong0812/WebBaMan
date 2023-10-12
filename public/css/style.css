@@ -1890,7 +1890,7 @@ footer {
   }
 
   .Featured_Deals .Featured_Deals-child--1 {
-    padding-right: 0;
+    padding-right: 0 !important;
 }
   .Featured_Deals
     .Featured_Deals-child--2
