@@ -1798,6 +1798,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
+  .Featured_Deals .Featured_Deals-child--1 {
+    padding-right: 0;
+}
   .navbar div:nth-child(1),
   .navbar div:nth-child(3) {
     display: none;
@@ -1888,10 +1892,6 @@ footer {
   .featured_Deals > * {
     width: 100% !important;
   }
-
-  .Featured_Deals .Featured_Deals-child--1 {
-    padding-right: 0 !important;
-}
   .Featured_Deals
     .Featured_Deals-child--2
     .featured_Deals-child--2-1
