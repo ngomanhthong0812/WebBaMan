@@ -1800,6 +1800,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
+  .Featured_Deals .Featured_Deals-child--1 {
+    padding-right: 0;
+}
   .navbar div:nth-child(1),
   .navbar div:nth-child(3) {
     display: none;
