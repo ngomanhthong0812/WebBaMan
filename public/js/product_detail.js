@@ -624,3 +624,6 @@ function checkLocalStorage() {
 
 // Gọi hàm kiểm tra localStorage khi trang được tải
 document.addEventListener("DOMContentLoaded", checkLocalStorage);
+
+
+
